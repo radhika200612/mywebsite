@@ -42,3 +42,46 @@ a:hover {
     margin-left: 190px;
 }
 
+.menu ul li {
+    display: inline-block;
+    margin-right: 35px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 500px;
+    letter-spacing: 1px;
+}
+
+.header .contact-info {
+    color: white;
+    margin-left: 400px;
+}
+
+.header .contact-info ul{
+    margin-left: 41px;
+}
+
+.header .contact-info ul li {
+    display: inline-block;
+}
+
+.header .contact-info ul li a {
+    color: white;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+.header .contact-info ul li a:hover {
+    color: #c32865;
+}
+
+.header .contact-info ul li a.sep {
+    margin: 0 28px;
+    opacity: 0.3;
+}
+
